@@ -39,4 +39,4 @@
         c. O(1)
         d. O(n^2)
 
-[Click here for solutions](https://github.com/wnbrb/interview-prep/blob/main/solutions/time_complexity_quiz_solution.rb)
+[Click here for solutions](https://github.com/wnbrb/interview-prep/blob/main/solutions/time_complexity_quiz_solution.md)
