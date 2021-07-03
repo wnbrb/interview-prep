@@ -1,32 +1,32 @@
-# Time Complexity Quiz
+# Time Complexity Quiz Solutions
 
 1. Which of the following are constant in regards to time complexity?
     1. variable assignments 
     2. accessing an element in an array by index
-    3. searching for an element in an array
-    4. in a loop with only arithmetic operations inside the loop
+    3. ~~searching for an element in an array~~
+    4. ~~in a loop with only arithmetic operations inside the loop~~
     5. arithmetic operations
 
 2. How could you simplify the big O expression of each of the following?
 
-        a. O(n + 10)                
-        b. O(2n)                    
-        c. O(1000n + 500n)          
-        d. O(5n^2 + 100n + 25)      
-        e. O(1000)                  
-        f. O(n^2 + n^3)             
+        a. O(n + 10)                # O(1)
+        b. O(2n)                    # O(n)
+        c. O(1000n + 500n)          # O(n)
+        d. O(5n^2 + 100n + 25)      # O(n^2)
+        e. O(1000)                  # O(1)
+        f. O(n^2 + n^3)             # O(n^3)
 
 3. What is the time complexity of the following:
 
-        a.  5000.times do |i|       
+        a.  5000.times do |i|       # O(1)
               puts i + i
             end
 
-        b.  n.times do |i|          
+        b.  n.times do |i|          # O(n)
               puts i + i
             end
 
-        c.  n.times do |i|          
+        c.  n.times do |i|          # O(n^2)
               n.times do |j|
                 puts i * j
               end
@@ -39,4 +39,4 @@
         c. O(1)
         d. O(n^2)
 
-[Click here for solutions](https://github.com/wnbrb/interview-prep/blob/main/solutions/time_complexity_quiz.rb)
+        c => a => b => d
