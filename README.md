@@ -5,3 +5,5 @@ Hi there! Join us on our journey as we prepare for interviews! We meet weekly to
 [Array problems](https://github.com/wnbrb/interview-prep/blob/main/arrays.md)
 
 [Linked list problems](https://github.com/wnbrb/interview-prep/blob/main/linked_lists.md)
+
+[Tree problems](https://github.com/wnbrb/interview-prep/blob/main/tree.md)

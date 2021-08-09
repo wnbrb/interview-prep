@@ -12,8 +12,6 @@
 # @param {Integer[]} nums
 # @return {TreeNode}
 
-# [-10,-3,0,5,9]
-
 def sorted_array_to_bst(nums)
   return if nums.empty?
 
