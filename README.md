@@ -27,6 +27,10 @@ Hi there! Join us on our journey as we prepare for interviews! We meet weekly to
 
 [Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/array_to_bst.rb)
 
+[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/zigzag_bst.rb)
+
 ### Code Wars problems
 
 [Next Biggest Number with Same Digits](https://www.codewars.com/kata/55983863da40caa2c900004e/ruby) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/next_biggest_number.rb)
+
+[Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/scramblies.md)
