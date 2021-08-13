@@ -83,7 +83,7 @@ string1 = "katas"
 string2 = "steak"
 
 sorted1 = "aakst"
-sorted2 = "aekst
+sorted2 = "aekst"
 ```
 
 👆 Looking at the first two characters - `a` and `a` they're both the same, so we can both advance both pointers.
@@ -121,8 +121,12 @@ s2.chars.all? { |c| s1.sub!(c, '') }
 end
 ```
 
+#### Test cases
+
+```Ruby
 p scramble('rkqodlw','world') == true
 p scramble('cedewaraaossoqqyt','codewars') == true
 p scramble('katas','steak') == false
 p scramble('scriptjava','javascript') == true
 p scramble('scriptingjava','javascript') == true
+```
