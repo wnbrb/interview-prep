@@ -2,14 +2,14 @@
 
 [Check out the instructions on Codewars](https://www.codewars.com/kata/55c04b4cc56a697bb0000048)
 
-Complete the function scramble(str1, str2) that returns true if a portion of str1 characters
-can be rearranged to match str2, otherwise returns false.
+> Complete the function scramble(str1, str2) that returns true if a portion of str1 characters
+> can be rearranged to match str2, otherwise returns false.
 
 ### Solution 1 - Hash
 
-The first solution could be solved with Ruby's very own `tally`. But we also provided our own tally method because most online IDEs don't run Ruby 2.7. yet which introduced `tally` to the Enumerable module.
+In first solution we could have used with Ruby's inbuilt [`tally`](https://rubyapi.org/3.0/o/s?q=tally). But we also provided our own tally method because most online IDEs don't run with Ruby 2.7. yet which introduced `tally` to the Enumerable module.
 
-```
+```Ruby
 def scramble(s1, s2)
   mixed = tally(s1)
   word = tally(s2)
@@ -28,7 +28,7 @@ end
 If you have a hard time understanding `reduce` here is our own tally version with `.each` instead. When using `each` as the iterative method we have to
 create the Hash that saves the occurrences ourselves.
 
-```
+```Ruby
 def tally(str)
   tally = Hash.new(0)
   str.split(//).each do |char|
@@ -42,7 +42,7 @@ end
 
 A nice collection of string methods is used in this solution. `Each_char` makes it easy to iterate over a string without splitting it into an array first.And `sub!` is used to delete characters from the bigger string.
 
-```
+```Ruby
 def scramble(s1, s2)
   s2.each_char do |char|
     return false unless s1.include? char
@@ -57,7 +57,7 @@ end
 
 Here we're adding out own `frequency` method to the Array Class.
 
-```
+```Ruby
 class Array
   def frequency
     Hash.new(0).tap { |counts| each { |v| counts[v] +=1} }
@@ -78,7 +78,7 @@ end
 When both strings are sorted you can move over them with two pointers combining each single character as you go. If the characters are the same, or if the longer string has more characters that are earlier in the alphabet.
 A little example:
 
-```
+```Ruby
 string1 = "katas"
 string2 = "steak"
 
@@ -90,7 +90,7 @@ sorted2 = "aekst
 So in the second loop we look at the second characters respectively - `a` and `e`. Since `a` comes before `e` in the alphabet we can assume that
 the string1 could have an `e` later on, so no need to cancel the whole mission just yet, we will only advance the pointer of the first word.
 
-```
+```Ruby
 def scramble(s1,s2)
   a1 = s1.split("").sort
   a2 = s2.split("").sort
@@ -115,9 +115,11 @@ end
 
 ### Solution 5 - all iterator
 
+```Ruby
 def scramble(s1, s2)
 s2.chars.all? { |c| s1.sub!(c, '') }
 end
+```
 
 p scramble('rkqodlw','world') == true
 p scramble('cedewaraaossoqqyt','codewars') == true
