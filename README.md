@@ -25,11 +25,13 @@ Hi there! Join us on our journey as we prepare for interviews! We meet weekly to
 - [Solution 2 (Recursion)](https://github.com/wnbrb/interview-prep/blob/main/solutions/is_palindrome2.rb)
 - [Solution 3 (Reverse Second Half In-place)](https://github.com/wnbrb/interview-prep/blob/main/solutions/is_palindrome3.rb)
 
-### Tree problems
+### Tree and graph problems
 
 [Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/array_to_bst.rb)
 
 [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/zigzag_bst.rb)
+
+[Course Schedule](https://leetcode.com/problems/course-schedule/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/course_schedule.rb)
 
 ### Code Wars problems
 
@@ -38,3 +40,5 @@ Hi there! Join us on our journey as we prepare for interviews! We meet weekly to
 [Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/scramblies.md)
 
 [Find outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/find_outlier.md)
+
+[Persistent bugger](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/ruby) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/persistent_bugger.md)

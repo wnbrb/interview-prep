@@ -5,3 +5,5 @@
 [Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/scramblies.md)
 
 [Find outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/find_outlier.md)
+
+[Persistent bugger](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/ruby) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/persistent_bugger.md)
