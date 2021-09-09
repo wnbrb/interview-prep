@@ -1,14 +1,14 @@
-# Scramblies
+# Persistent Bugger
 
-[Check out the instructions on Codewars](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/ruby)
+Instructions:
 
 > Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
 
-#### Some Preliminary Considerations
+[Check out the instructions on Codewars](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/ruby)
 
-##### 1. How to determine the length of an integer (number of digits)?
+### Some Preliminary Considerations
 
-See this [stack overflow answer](https://stackoverflow.com/a/48866874/9595653) for benchmarks.
+#### 1. How to determine the length of an integer (number of digits)?
 
 ```Ruby
 integer.to_s.length
@@ -22,7 +22,9 @@ integer.digits
 Math.log10(integer).to_i + 1
 ```
 
-##### 2. Modulo operator in Ruby
+See this [stack overflow answer](https://stackoverflow.com/a/48866874/9595653) for benchmarks.
+
+#### 2. Modulo operator in Ruby
 
 Working with the modulo operator is pretty straight forward until we start working with negative numbers:
 So in Ruby
@@ -38,10 +40,10 @@ but
 ```
 
 Why? 🤯
-Well, Ruby assumes that there are two rules for the remainder that need to be fulfilled:
+Well, Ruby assumes that there are **two rules for the remainder** that need to be fulfilled:
 
 1. The remainder has to be positive.
-2. The remainder has to be less than the divisor (that's the 3 - the number by which another number is to be divided)
+2. The remainder has to be less than the divisor (that's the 3 - the number by which another number is to be divided see below)
 
 [Ruta](https://twitter.com/rreisoh) explained it like this - starting off with the example of 5 divided 3.
 If we work with full numbers, 5 divided by 3 is 1 with a remainder of 2:
@@ -72,7 +74,7 @@ But we have to find a solution that fulfills both rules. Like so:
 # And - 6 + 1 = -5.
 ```
 
-By the way: other programming languages might handle this differently, see also [this answer](https://stackoverflow.com/a/16074198/9595653).
+By the way: other programming languages might handle this differently, see also [this answer on Stack Overflow](https://stackoverflow.com/a/16074198/9595653).
 
 ### Solution 1 - Recursion with `.divmod`
 
@@ -106,7 +108,7 @@ end
 
 ### Solution 3 - One-liner
 
-Not super readable, but it fit's in one line
+Not super readable, but it fits in one line
 
 ```Ruby
 def persistence(n)
