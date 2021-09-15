@@ -25,6 +25,8 @@ Hi there! Join us on our journey as we prepare for interviews! We meet weekly to
 - [Solution 2 (Recursion)](https://github.com/wnbrb/interview-prep/blob/main/solutions/is_palindrome2.rb)
 - [Solution 3 (Reverse Second Half In-place)](https://github.com/wnbrb/interview-prep/blob/main/solutions/is_palindrome3.rb)
 
+[Container with most water](https://leetcode.com/problems/container-with-most-water) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/container_most_water.md)
+
 ### Tree and graph problems
 
 [Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/array_to_bst.rb)
