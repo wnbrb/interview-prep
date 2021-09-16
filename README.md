@@ -35,6 +35,10 @@ Hi there! Join us on our journey as we prepare for interviews! We meet weekly to
 
 [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/course_schedule.rb)
 
+### Bitwise manipulation
+
+[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/reverse_bits.rb)
+
 ### Code Wars problems
 
 [Next Biggest Number with Same Digits](https://www.codewars.com/kata/55983863da40caa2c900004e/ruby) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/next_biggest_number.rb)
@@ -44,3 +48,5 @@ Hi there! Join us on our journey as we prepare for interviews! We meet weekly to
 [Find outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/find_outlier.md)
 
 [Persistent bugger](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/ruby) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/persistent_bugger.md)
+
+[RGB to hex](https://www.codewars.com/kata/513e08acc600c94f01000001) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/rgb_to_hex.rb)
