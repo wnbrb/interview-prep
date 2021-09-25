@@ -15,6 +15,8 @@ Hi there! Join us on our journey as we prepare for interviews! We meet weekly to
 
 [Sort Colors](https://leetcode.com/problems/sort-colors/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/sort_colors.rb)
 
+[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/spiral.rb)
+
 ### Linked list problems
 
 [Merge sorted linked lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/merge_sorted_linked_lists.rb)
@@ -50,3 +52,5 @@ Hi there! Join us on our journey as we prepare for interviews! We meet weekly to
 [Persistent bugger](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/ruby) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/persistent_bugger.md)
 
 [RGB to hex](https://www.codewars.com/kata/513e08acc600c94f01000001) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/rgb_to_hex.rb)
+
+[Vasya Clerk](https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8/train/ruby) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/vasya_clerk.rb)
