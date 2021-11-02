@@ -4,8 +4,7 @@ Hi there! Join us on our journey as we prepare for interviews! We meet weekly to
 
 ### Array problems
 
-[Reverse String Problem](https://leetcode.com/problems/reverse-string/)
-| [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/reverse_string.rb)
+[Reverse String Problem](https://leetcode.com/problems/reverse-string/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/reverse_string.rb)
 
 [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/intersection_of_two_arrays_2.rb)
 
@@ -43,14 +42,14 @@ Hi there! Join us on our journey as we prepare for interviews! We meet weekly to
 
 ### Code Wars problems
 
-[Next Biggest Number with Same Digits](https://www.codewars.com/kata/55983863da40caa2c900004e/ruby) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/next_biggest_number.rb)
-
-[Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/scramblies.md)
-
-[Find outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/find_outlier.md)
-
-[Persistent bugger](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/ruby) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/persistent_bugger.md)
-
-[RGB to hex](https://www.codewars.com/kata/513e08acc600c94f01000001) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/rgb_to_hex.rb)
-
-[Vasya Clerk](https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8/train/ruby) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/vasya_clerk.rb)
+| Problem                                                                                             | Solution                                                                                       | EU Solution (if different)                                                                                                                                                                                       |
+| --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Next Biggest Number with Same Digits](https://www.codewars.com/kata/55983863da40caa2c900004e/ruby) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/next_biggest_number.rb) |
+| [Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048)                                | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/scramblies.md)          |
+| [Find outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc)                              | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/find_outlier.md)        | [Solution EU group Ruby](https://github.com/wnbrb/interview-prep/blob/main/solutions/outlier.rb) & [Solution EU group JS (not finished)](https://github.com/wnbrb/interview-prep/blob/main/solutions/outlier.js) |
+| [Persistent bugger](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/ruby)              | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/persistent_bugger.md)   | [Solution EU group](https://github.com/wnbrb/interview-prep/blob/main/solutions/persistent_bugger_eu.rb_)                                                                                                        |
+| [RGB to hex](https://www.codewars.com/kata/513e08acc600c94f01000001)                                | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/rgb_to_hex.rb)          |
+| [Vasya Clerk](https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8/train/ruby)                    | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/vasya_clerk.rb)         |
+| [Weight for weight](https://www.codewars.com/kata/55c6126177c9441a570000cc)                         | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/weight_for_weight.rb)   |
+| [Domain name](https://www.codewars.com/kata/514a024011ea4fb54200004b)                               | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/domain_name.rb)         |
+| [Encryption](https://www.codewars.com/kata/57814d79a56c88e3e0000786)                                | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/encrypt.rb)             |
