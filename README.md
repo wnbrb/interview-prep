@@ -16,6 +16,8 @@ Hi there! Join us on our journey as we prepare for interviews! We meet weekly to
 
 [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/spiral.rb)
 
+[Shortest Distance Problem and Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/shortest_distance.md)
+
 ### Linked list problems
 
 [Merge sorted linked lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](https://github.com/wnbrb/interview-prep/blob/main/solutions/merge_sorted_linked_lists.rb)
