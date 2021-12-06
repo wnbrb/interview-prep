@@ -1,6 +1,6 @@
 # WNB.rb interview-prep
 
-Hi there! Join us on our journey as we prepare for interviews! We meet weekly to discuss and solve the Problem of the Week.
+Hi there! Join us on our journey as we prepare for interviews! We meet weekly to discuss and solve the Problem of the Week in WNB.rb's slack channel #interview_prep. [Sign up here](tinyurl.com/join-wnb-rb) for our community if you're not a member yet!
 
 ### Array problems
 
